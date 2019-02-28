@@ -51,13 +51,13 @@
 		function __construct()
 		{
 			$this->channel_ 		= 	curl_init();
-			$this->requestUrl_ 		=
-			$this->requestMethod_ 	=
-			$this->responseBody_ 	=
-			$this->error_ 			=
-			$this->responseHeaders_ =
-			$this->requestHeaders_ 	=
-			$this->defaultOutputFile_ =
+			$this->requestUrl_ 		= '';
+			$this->requestMethod_ 	= '';
+			$this->responseBody_ 	= '';
+			$this->error_ 			= '';
+			$this->responseHeaders_ = array();
+			$this->requestHeaders_ 	= array();
+			$this->defaultOutputFile_ = '';
 			$this->fileExtension_	=	'';
 			$this->outputToFile_	= 	false;
 			$this->timeout_ 		=	18000;
